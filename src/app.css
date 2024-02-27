@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-black/80;
+	@apply text-white/60;
+}
+
+a {
+	@apply transition-colors;
+}
+
+dialog {
+	@apply bg-zinc-700;
+	@apply rounded-md;
+}
+
+dialog::backdrop {
+	background: rgba(0, 0, 0, 0.75);
+}
